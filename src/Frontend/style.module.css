@@ -1,0 +1,122 @@
+*{
+  padding-left: 7%;
+  margin: 0%;
+  box-sizing: border-box ;
+}
+
+#sidenav {
+  height: 100%;
+  width: 0;
+  padding:5%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  /* overflow-x: hidden; */
+  transition: 0.1s;
+  padding-top: 30px;
+  /* background-color: #111;
+  text-decoration: none;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  overflow-x: hidden;
+  transition: 0.1s;
+  padding-top: 60px;  */
+  }
+  #sidenav>a{
+    padding: 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.1s;
+  }
+  #sidenav>a:hover {
+    color: #f1f1f1;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+  }
+  #da{
+    
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+
+#div{
+  
+  padding: 100px;
+  border: 2px solid gray;
+  /* background-color: yellow; */
+  width: 550px;
+  height: 400px;
+  color: green;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+#btn{
+  padding: 5px;
+  color: red;
+  width: 100px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+#btn:hover{
+  background-color: blueviolet;
+  color: mediumspringgreen;
+  transition: 1s;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+/* // npm install json-server */
+#da{
+  display: flex;
+  flex-wrap: wrap; 
+}
+#section{
+  margin: 30px;
+  width: 400px;
+  height: 200px;
+  background-color: silver;
+  border: 3px solid black;
+  padding: 30px;
+  color: black;
+  border-radius: 20px;
+}
+#section>p{
+   color:brown;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;  
+    font-size: large; 
+}
+#section>p>span{
+  color: blue;
+  font-weight: bolder;
+  font-size: large; 
+  margin: 10px;
+  padding: 2px;
+}
+#btn{
+  padding: 4px;
+  color: red;
+  font-weight: bolder;
+  font-size: small;
+  margin: 10px;
+  width: 80px;
+}
+#cssin[type=text]{
+  border: none;
+  border-bottom: 3px solid red;
+  color: black;
+  padding: 2px;
+  
+}
